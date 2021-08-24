@@ -1,0 +1,39 @@
+// <!-- document.getElementById('keno').textContent = "Change the background color";
+//                 newBackgroundColor = prompt("What color would like for the background?");
+//                 // newTextColor       = prompt("What color do you want to change the text to?");
+                
+//                 document.body.style.backgroundColor.value = newBackgroundColor;
+//                 // document.getElementById('keno').textContent = "Change the background color";
+//                 document.getElementById('keno').style = newBackgroundColor;
+//                 // // "Color: yellow";
+
+
+
+// <body onload="changeBackground()">
+//         <h4 id="keno">Change the background color</h4> -->
+
+
+//         <!-- <script >
+//             function changeBackground() {
+//                 var color = document.getElementById("color").value; // cached
+
+//     // The working function for changing background color.
+//                 document.bgColor = color;
+
+//     // The code I'd like to use for changing the text simultaneously - however it does not work.
+//                 document.getElementById("coltext").style.color = color;
+//                         }
+
+//             document.getElementById("submitColor").addEventListener("click", changeBackground, false);
+//         </script>
+
+//     </head>
+//     <body >
+//         <form id="TheForm">
+//             <input id="color" type="text" />
+//             <br/>
+//             <input id="submitColor" value="Submit" type="button" />
+//         </form>
+//         <span id="coltext">This text should have the same color as you put in the text box</span>
+
+//  -->

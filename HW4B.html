@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Card Matching Game</title>
+
+
+    <link rel="stylesheet" href="HW4B.css">
+</head>
+
+<body>
+    <br><br>
+    <div class="links">
+
+    </div>
+    <div class="container">
+        <header>
+            <h1>Card Matching Game</h1>
+        </header>
+
+
+        <br>
+        <div class="styled-select slate">
+            <select id="difficultySelector">
+          <option value="" disabled selected>Select a difficulty level</option>
+          <option value="1">Easy</option>
+          <option value="2">Medium</option>
+          <option value="3">Hard</option>
+        </select>
+        </div>
+
+        <br>
+        <br>
+
+        <button class="myButton" id="startGame" disabled><i class="fa fa-play"></i> Start Game</button>
+        <br>
+        <button class="myButton" onclick="beginGame();" disabled id="restartGame"><i class="fa fa-repeat"></i> Restart</Button>
+
+        <section class="timer-panel">
+
+            <span class="moves" style="visibility: hidden;">0</span>
+
+            <br>
+
+            <div class="timer">
+            </div>
+
+
+        </section>
+
+        <ul class="card-container" id="card-ul">
+
+        </ul>
+
+    </div>
+    <script src="HW4B.js"></script>
+</body>
+
+</html>
